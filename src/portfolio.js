@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Founder",
       company: "JavaEmpire",
-      companylogo: require("./assets/images/javamepireLogo.webp"),
+      companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2023 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
