@@ -407,3 +407,4 @@ export {
   twitterDetails,
   isHireable
 };
+ 
