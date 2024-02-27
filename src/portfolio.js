@@ -365,11 +365,11 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "<iframe src="https://podcasters.spotify.com/pod/show/pratham643/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   podcast: [
+//     "<iframe src="https://podcasters.spotify.com/pod/show/pratham643/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>"
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
