@@ -126,22 +126,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "KIIT University",
+      logo: require("./assets/images/KIIT-logo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2022 - Present",
+      desc: "Pursuing.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "NESK",
+      logo: require("./assets/images/NESK-logo.png"),
+      subHeader: "Intermediate",
+      duration: "June 2020 - March 2022",
+      desc: "Ranked top 10% in the program. Took courses about Physics,Chemistry,Mathematics, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Founder",
       company: "JavaEmpire",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/javaempire.png"),
       date: "June 2023 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -187,14 +187,14 @@ const workExperiences = {
     {
       role: "Ninja Entrepreneur",
       company: "Coding Ninjas",
-      companylogo: require("./assets/images/codingninjaLogo.png"),
+      companylogo: require("./assets/images/coding.png"),
       date: "May 2023 –  Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Web Development Intern",
       company: "LetsGrowMore",
-      companylogo: require("./assets/images/letsgrowLogo.jpg"),
+      companylogo: require("./assets/images/letsgrow.png"),
       date: "Jan 2023 – May 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -215,8 +215,20 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+      {
+      image: require("./assets/images/wedcard.webp"),
+      projectName: "WedCard Shopping",
+      projectDesc: "Invitation Card Shopping Company",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://wedcard.in/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/javaempire.webp"),
       projectName: "JavaEmpire Dev",
       projectDesc: "Web Development Company",
       footerLink: [
@@ -228,8 +240,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "E'_Parking",
+      image: require("./assets/images/parking.webp"),
+      projectName: "E_Parking",
       projectDesc: "Car Parking Service in Metro Cities.",
       footerLink: [
         {
@@ -254,7 +266,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -268,7 +280,7 @@ const achievementSection = {
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://opensource.googleblog.com/2019/01/google-code-in--winners.html"
         }
       ]
     },
@@ -295,7 +307,7 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://wedcard.in/"
         }
       ]
     }
@@ -312,7 +324,7 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://medium.com/@pratham643/https-devswag-io-ae0350d8c585",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
@@ -363,14 +375,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-0000000000",
+  number: "+91-9322985002",
   email_address: "gangardepatil643@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Pratham643_", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
